@@ -24,3 +24,4 @@ export class StockService {
     return  this.httpClient.delete(`${this.API_URL}/remove-stock/${idStock}`)
   }
 }
+////////
